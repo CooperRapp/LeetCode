@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class LinkedListCycle {
+public class LinkedListCycle extends ListNode {
     public static void main (String [] args) {
         ListNode head = null;
         System.out.println(hasCycle(head));
@@ -22,12 +22,3 @@ public class LinkedListCycle {
         return false;
     }
 }
-
-//class ListNode {
-//    int val;
-//    ListNode next;
-//    ListNode(int x) {
-//        val = x;
-//        next = null;
-//    }
-//}

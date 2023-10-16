@@ -1,4 +1,4 @@
-public class MergeTwoSortedLists {
+public class MergeTwoSortedLists extends ListNode {
     public static void main (String [] args) {
         ListNode list1 = new ListNode(1);
         list1.next = new ListNode(2);
@@ -29,19 +29,6 @@ public class MergeTwoSortedLists {
         }
         if(list1 == null) return list2;
         return list1;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) {
-        this.val = val;
-    }
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
     }
 }
 
